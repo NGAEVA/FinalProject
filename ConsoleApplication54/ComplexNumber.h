@@ -9,6 +9,7 @@ class complexNumber
 	friend istream & operator >> (istream&, complexNumber&);
 public:
 	complexNumber(double real = 0, double imag = 0);
+	complexNumber setComplex(double a, double b);
 	complexNumber operator+ (const complexNumber & otherComplex) const;
 	complexNumber operator- (const complexNumber & otherComplex) const;
 	complexNumber operator/ (const complexNumber & otherComplex) const;

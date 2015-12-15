@@ -6,7 +6,13 @@ complexNumber::complexNumber(double real, double imag)
 	realPart = real;
 	imaginarypart = imag;
 }
-
+complexNumber complexNumber::setComplex(double a,double b)
+{
+	complexNumber tmp;
+	tmp.realPart = a;
+	tmp.imaginarypart = b;
+	return tmp;
+}
 ostream & operator << (ostream& osObject, const complexNumber& complex)
 {
 	osObject << "(";
