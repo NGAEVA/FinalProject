@@ -5,6 +5,8 @@ struct complexType
 {
 	complexNumber num1, num2;
 	complexNumber sum, sub, mult, div;
+	complexNumber JF1, JF2, JF3;
+	//I added three varibles in "struct complexType". Hope you can use it.
 };
 int main(int arg, char *argv[])
 {
